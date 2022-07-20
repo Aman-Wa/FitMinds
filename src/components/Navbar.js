@@ -16,8 +16,8 @@ const Navbar = () => (
       fontSize="24px"
       alignItems="flex-end"
     >
-      <Link className="navbar" to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}><span >Home</span></Link>
-      <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212' ,borderBottom: '3px solid #FF2625'}} className="navbar"><span >Exercises</span></a>
+      <Link className="navbar" to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}><span>Home</span></Link>
+      <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }} className="navbar"><span>Exercises</span></a>
     </Stack>
   </Stack>
 );
